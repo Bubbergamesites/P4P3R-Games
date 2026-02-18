@@ -1,6 +1,6 @@
-## Nexus Proxy
+# Nexus Proxy
 A clean, simple unblocked games site for school
-# features:
+## features:
 - scramjet
 - its static
 - easy to manage
