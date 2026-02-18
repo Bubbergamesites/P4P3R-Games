@@ -164,14 +164,6 @@ html, body {
       <option value="https://www.google.com/search?q=">Google</option>
     </select>
   </form>
-
-<script>
-  $('#searchForm').onsubmit = e => {
-      e.preventDefault();
-      const q = $('#searchInput').value.trim();
-      if (q) nav($('#engine').value + encodeURIComponent(q));
-    };
-</script>
        <div class="nav-row">
             <a href="https://netlii-games.pages.dev/projects" class="nav-item">
                 <div class="icon-circle">🎮</div>
@@ -193,5 +185,13 @@ html, body {
                 <span class="icon-label">Movies</span>
             </a>
         </div>
+    <script>
+  $('#searchForm').onsubmit = e => {
+      e.preventDefault();
+      const q = $('#searchInput').value.trim();
+      if (q) nav($('#engine').value + encodeURIComponent(q));
+    };
+</script>
+    </script>
 </body>
 </html>
